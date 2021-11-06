@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/proiect1daniela.dir/src/main.cpp.o CMakeFiles/proiect1daniela.dir/src/Home.cpp.o CMakeFiles/proiect1daniela.dir/src/House.cpp.o CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.o  -o proiect1daniela 

@@ -1,0 +1,3 @@
+/mnt/e/facultate/anul iv ac/iep/proiect1/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/facultate/anul iv ac/iep/proiect1/build/CMakeFiles/edit_cache.dir
+/mnt/e/facultate/anul iv ac/iep/proiect1/build/CMakeFiles/proiect1daniela.dir
