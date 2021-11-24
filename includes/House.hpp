@@ -6,9 +6,10 @@
 class House : public Home
 {
     private:
-        const double yardArea;
+         double yardArea;
 
     public:
-        House(const std::string& owner, const double area, const double yardArea);
+        House(std::string owner, double area, int *wallSize, double yardArea );
         double getYardArea();
+         House& operator=(const House& house);
 };

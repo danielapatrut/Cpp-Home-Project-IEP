@@ -15,16 +15,14 @@ Home.hpp
 /mnt/e/facultate/anul iv ac/iep/proiect1/includes/Home.hpp
 iostream
 -
+vector
+-
 
 /mnt/e/facultate/anul iv ac/iep/proiect1/includes/House.hpp
 iostream
 -
 Home.hpp
 /mnt/e/facultate/anul iv ac/iep/proiect1/includes/Home.hpp
-
-/mnt/e/facultate/anul iv ac/iep/proiect1/src/Apartment.cpp
-../includes/Apartment.hpp
-/mnt/e/facultate/anul iv ac/iep/proiect1/includes/Apartment.hpp
 
 /mnt/e/facultate/anul iv ac/iep/proiect1/src/main.cpp
 ../includes/House.hpp

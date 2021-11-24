@@ -6,9 +6,10 @@
 class Apartment : public Home
 {
     private:
-        const unsigned int floorNr;
+        unsigned int floorNr;
 
     public:
-        Apartment(const std::string& owner, const double area, const unsigned int floorNr);
+        Apartment(std::string owner, double area, int *wallSize, unsigned int floorNr);
         int getFloorNr();
+        Apartment& operator=(const Apartment& ap);
 };

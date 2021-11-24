@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
-
-class Uncopyable
+#include<vector>
+/*class Uncopyable
 {
     protected:  // allow construction and destruction
         Uncopyable() {}
@@ -11,15 +11,17 @@ class Uncopyable
         //prevent copying
         Uncopyable(const Uncopyable&);    //copy constructor
         Uncopyable& operator=(const Uncopyable);   //assigment operator
-};
+};*/
 
-class Home : private Uncopyable
+class Home //: private Uncopyable
 {
     protected:
-        const std::string& owner;
-        const double area;
+         std::string owner;
+         double area;
+         int *wallSize;
 
     public:
-        Home(const std::string& owner, const double area);
+        Home( std::string owner, double area,  int *wallSize);
         double getPrice(double pricePerMP);
+        Home& operator=(const Home& home);
 };
