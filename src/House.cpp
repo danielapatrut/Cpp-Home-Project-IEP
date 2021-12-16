@@ -26,4 +26,8 @@ double House::getYardArea()
     return yardArea;
 }
 
+    House:: ~House()
+    {
+        std::cout<<"\nCasa a fost distrusa"<<std::endl;
+    }
 

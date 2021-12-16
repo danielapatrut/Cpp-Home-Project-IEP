@@ -4,7 +4,7 @@ Apartment::Apartment(std::string owner, double area, int *wallSize, unsigned int
     Home(owner, area, wallSize),
     floorNr(floorNr) {};
 
-Apartment& Apartment::operator=(const Apartment& ap)
+/*Apartment& Apartment::operator=(const Apartment &ap)
         {
             if(&ap == this) 
                 return *this;
@@ -15,6 +15,7 @@ Apartment& Apartment::operator=(const Apartment& ap)
             return *this;
             
         }
+*/
 int Apartment::getFloorNr()
 {
     std::cout<<"The floor number is: "<<floorNr<<std::endl;
@@ -25,4 +26,13 @@ int Apartment::getFloorNr()
     std::cout<<"\n";
 
     return floorNr;
+}
+
+Apartment::~Apartment()
+{
+    if(!sharedAp_.use_count())
+        std::cout<<"\nApartamentul este gol"<<std::endl;
+    else
+        std::cout<<"\n"<<sharedAp_.use_count()<<std::endl;
+
 }

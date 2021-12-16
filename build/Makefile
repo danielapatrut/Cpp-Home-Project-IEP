@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/e/facultate/anul iv ac/iep/proiect1"
+CMAKE_SOURCE_DIR = "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/e/facultate/anul iv ac/iep/proiect1/build"
+CMAKE_BINARY_DIR = "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/facultate/anul iv ac/iep/proiect1/build/CMakeFiles" "/mnt/e/facultate/anul iv ac/iep/proiect1/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build/CMakeFiles" "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/facultate/anul iv ac/iep/proiect1/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -204,6 +204,87 @@ src/House.cpp.s:
 	$(MAKE) -f CMakeFiles/proiect1daniela.dir/build.make CMakeFiles/proiect1daniela.dir/src/House.cpp.s
 .PHONY : src/House.cpp.s
 
+src/LockRoom.o: src/LockRoom.cpp.o
+
+.PHONY : src/LockRoom.o
+
+# target to build an object file
+src/LockRoom.cpp.o:
+	$(MAKE) -f CMakeFiles/proiect1daniela.dir/build.make CMakeFiles/proiect1daniela.dir/src/LockRoom.cpp.o
+.PHONY : src/LockRoom.cpp.o
+
+src/LockRoom.i: src/LockRoom.cpp.i
+
+.PHONY : src/LockRoom.i
+
+# target to preprocess a source file
+src/LockRoom.cpp.i:
+	$(MAKE) -f CMakeFiles/proiect1daniela.dir/build.make CMakeFiles/proiect1daniela.dir/src/LockRoom.cpp.i
+.PHONY : src/LockRoom.cpp.i
+
+src/LockRoom.s: src/LockRoom.cpp.s
+
+.PHONY : src/LockRoom.s
+
+# target to generate assembly for a file
+src/LockRoom.cpp.s:
+	$(MAKE) -f CMakeFiles/proiect1daniela.dir/build.make CMakeFiles/proiect1daniela.dir/src/LockRoom.cpp.s
+.PHONY : src/LockRoom.cpp.s
+
+src/Renter.o: src/Renter.cpp.o
+
+.PHONY : src/Renter.o
+
+# target to build an object file
+src/Renter.cpp.o:
+	$(MAKE) -f CMakeFiles/proiect1daniela.dir/build.make CMakeFiles/proiect1daniela.dir/src/Renter.cpp.o
+.PHONY : src/Renter.cpp.o
+
+src/Renter.i: src/Renter.cpp.i
+
+.PHONY : src/Renter.i
+
+# target to preprocess a source file
+src/Renter.cpp.i:
+	$(MAKE) -f CMakeFiles/proiect1daniela.dir/build.make CMakeFiles/proiect1daniela.dir/src/Renter.cpp.i
+.PHONY : src/Renter.cpp.i
+
+src/Renter.s: src/Renter.cpp.s
+
+.PHONY : src/Renter.s
+
+# target to generate assembly for a file
+src/Renter.cpp.s:
+	$(MAKE) -f CMakeFiles/proiect1daniela.dir/build.make CMakeFiles/proiect1daniela.dir/src/Renter.cpp.s
+.PHONY : src/Renter.cpp.s
+
+src/Room.o: src/Room.cpp.o
+
+.PHONY : src/Room.o
+
+# target to build an object file
+src/Room.cpp.o:
+	$(MAKE) -f CMakeFiles/proiect1daniela.dir/build.make CMakeFiles/proiect1daniela.dir/src/Room.cpp.o
+.PHONY : src/Room.cpp.o
+
+src/Room.i: src/Room.cpp.i
+
+.PHONY : src/Room.i
+
+# target to preprocess a source file
+src/Room.cpp.i:
+	$(MAKE) -f CMakeFiles/proiect1daniela.dir/build.make CMakeFiles/proiect1daniela.dir/src/Room.cpp.i
+.PHONY : src/Room.cpp.i
+
+src/Room.s: src/Room.cpp.s
+
+.PHONY : src/Room.s
+
+# target to generate assembly for a file
+src/Room.cpp.s:
+	$(MAKE) -f CMakeFiles/proiect1daniela.dir/build.make CMakeFiles/proiect1daniela.dir/src/Room.cpp.s
+.PHONY : src/Room.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -249,6 +330,15 @@ help:
 	@echo "... src/House.o"
 	@echo "... src/House.i"
 	@echo "... src/House.s"
+	@echo "... src/LockRoom.o"
+	@echo "... src/LockRoom.i"
+	@echo "... src/LockRoom.s"
+	@echo "... src/Renter.o"
+	@echo "... src/Renter.i"
+	@echo "... src/Renter.s"
+	@echo "... src/Room.o"
+	@echo "... src/Room.i"
+	@echo "... src/Room.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

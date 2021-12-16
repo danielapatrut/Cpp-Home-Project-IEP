@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/e/facultate/anul iv ac/iep/proiect1"
+CMAKE_SOURCE_DIR = "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/e/facultate/anul iv ac/iep/proiect1/build"
+CMAKE_BINARY_DIR = "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/proiect1daniela.dir/depend.make
@@ -59,62 +59,104 @@ include CMakeFiles/proiect1daniela.dir/flags.make
 
 CMakeFiles/proiect1daniela.dir/src/main.cpp.o: CMakeFiles/proiect1daniela.dir/flags.make
 CMakeFiles/proiect1daniela.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/facultate/anul iv ac/iep/proiect1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/proiect1daniela.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect1daniela.dir/src/main.cpp.o -c "/mnt/e/facultate/anul iv ac/iep/proiect1/src/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/proiect1daniela.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect1daniela.dir/src/main.cpp.o -c "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/main.cpp"
 
 CMakeFiles/proiect1daniela.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proiect1daniela.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/facultate/anul iv ac/iep/proiect1/src/main.cpp" > CMakeFiles/proiect1daniela.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/main.cpp" > CMakeFiles/proiect1daniela.dir/src/main.cpp.i
 
 CMakeFiles/proiect1daniela.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiect1daniela.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/facultate/anul iv ac/iep/proiect1/src/main.cpp" -o CMakeFiles/proiect1daniela.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/main.cpp" -o CMakeFiles/proiect1daniela.dir/src/main.cpp.s
 
 CMakeFiles/proiect1daniela.dir/src/Home.cpp.o: CMakeFiles/proiect1daniela.dir/flags.make
 CMakeFiles/proiect1daniela.dir/src/Home.cpp.o: ../src/Home.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/facultate/anul iv ac/iep/proiect1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/proiect1daniela.dir/src/Home.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect1daniela.dir/src/Home.cpp.o -c "/mnt/e/facultate/anul iv ac/iep/proiect1/src/Home.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/proiect1daniela.dir/src/Home.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect1daniela.dir/src/Home.cpp.o -c "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/Home.cpp"
 
 CMakeFiles/proiect1daniela.dir/src/Home.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proiect1daniela.dir/src/Home.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/facultate/anul iv ac/iep/proiect1/src/Home.cpp" > CMakeFiles/proiect1daniela.dir/src/Home.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/Home.cpp" > CMakeFiles/proiect1daniela.dir/src/Home.cpp.i
 
 CMakeFiles/proiect1daniela.dir/src/Home.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiect1daniela.dir/src/Home.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/facultate/anul iv ac/iep/proiect1/src/Home.cpp" -o CMakeFiles/proiect1daniela.dir/src/Home.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/Home.cpp" -o CMakeFiles/proiect1daniela.dir/src/Home.cpp.s
 
 CMakeFiles/proiect1daniela.dir/src/House.cpp.o: CMakeFiles/proiect1daniela.dir/flags.make
 CMakeFiles/proiect1daniela.dir/src/House.cpp.o: ../src/House.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/facultate/anul iv ac/iep/proiect1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/proiect1daniela.dir/src/House.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect1daniela.dir/src/House.cpp.o -c "/mnt/e/facultate/anul iv ac/iep/proiect1/src/House.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/proiect1daniela.dir/src/House.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect1daniela.dir/src/House.cpp.o -c "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/House.cpp"
 
 CMakeFiles/proiect1daniela.dir/src/House.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proiect1daniela.dir/src/House.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/facultate/anul iv ac/iep/proiect1/src/House.cpp" > CMakeFiles/proiect1daniela.dir/src/House.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/House.cpp" > CMakeFiles/proiect1daniela.dir/src/House.cpp.i
 
 CMakeFiles/proiect1daniela.dir/src/House.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiect1daniela.dir/src/House.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/facultate/anul iv ac/iep/proiect1/src/House.cpp" -o CMakeFiles/proiect1daniela.dir/src/House.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/House.cpp" -o CMakeFiles/proiect1daniela.dir/src/House.cpp.s
 
 CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.o: CMakeFiles/proiect1daniela.dir/flags.make
 CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.o: ../src/Apartment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/facultate/anul iv ac/iep/proiect1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.o -c "/mnt/e/facultate/anul iv ac/iep/proiect1/src/Apartment.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.o -c "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/Apartment.cpp"
 
 CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/facultate/anul iv ac/iep/proiect1/src/Apartment.cpp" > CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/Apartment.cpp" > CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.i
 
 CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/facultate/anul iv ac/iep/proiect1/src/Apartment.cpp" -o CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/Apartment.cpp" -o CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.s
+
+CMakeFiles/proiect1daniela.dir/src/Renter.cpp.o: CMakeFiles/proiect1daniela.dir/flags.make
+CMakeFiles/proiect1daniela.dir/src/Renter.cpp.o: ../src/Renter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/proiect1daniela.dir/src/Renter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect1daniela.dir/src/Renter.cpp.o -c "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/Renter.cpp"
+
+CMakeFiles/proiect1daniela.dir/src/Renter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proiect1daniela.dir/src/Renter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/Renter.cpp" > CMakeFiles/proiect1daniela.dir/src/Renter.cpp.i
+
+CMakeFiles/proiect1daniela.dir/src/Renter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiect1daniela.dir/src/Renter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/Renter.cpp" -o CMakeFiles/proiect1daniela.dir/src/Renter.cpp.s
+
+CMakeFiles/proiect1daniela.dir/src/Room.cpp.o: CMakeFiles/proiect1daniela.dir/flags.make
+CMakeFiles/proiect1daniela.dir/src/Room.cpp.o: ../src/Room.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/proiect1daniela.dir/src/Room.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect1daniela.dir/src/Room.cpp.o -c "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/Room.cpp"
+
+CMakeFiles/proiect1daniela.dir/src/Room.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proiect1daniela.dir/src/Room.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/Room.cpp" > CMakeFiles/proiect1daniela.dir/src/Room.cpp.i
+
+CMakeFiles/proiect1daniela.dir/src/Room.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiect1daniela.dir/src/Room.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/Room.cpp" -o CMakeFiles/proiect1daniela.dir/src/Room.cpp.s
+
+CMakeFiles/proiect1daniela.dir/src/LockRoom.cpp.o: CMakeFiles/proiect1daniela.dir/flags.make
+CMakeFiles/proiect1daniela.dir/src/LockRoom.cpp.o: ../src/LockRoom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/proiect1daniela.dir/src/LockRoom.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect1daniela.dir/src/LockRoom.cpp.o -c "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/LockRoom.cpp"
+
+CMakeFiles/proiect1daniela.dir/src/LockRoom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proiect1daniela.dir/src/LockRoom.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/LockRoom.cpp" > CMakeFiles/proiect1daniela.dir/src/LockRoom.cpp.i
+
+CMakeFiles/proiect1daniela.dir/src/LockRoom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiect1daniela.dir/src/LockRoom.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/LockRoom.cpp" -o CMakeFiles/proiect1daniela.dir/src/LockRoom.cpp.s
 
 # Object files for target proiect1daniela
 proiect1daniela_OBJECTS = \
 "CMakeFiles/proiect1daniela.dir/src/main.cpp.o" \
 "CMakeFiles/proiect1daniela.dir/src/Home.cpp.o" \
 "CMakeFiles/proiect1daniela.dir/src/House.cpp.o" \
-"CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.o"
+"CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.o" \
+"CMakeFiles/proiect1daniela.dir/src/Renter.cpp.o" \
+"CMakeFiles/proiect1daniela.dir/src/Room.cpp.o" \
+"CMakeFiles/proiect1daniela.dir/src/LockRoom.cpp.o"
 
 # External object files for target proiect1daniela
 proiect1daniela_EXTERNAL_OBJECTS =
@@ -123,9 +165,12 @@ proiect1daniela: CMakeFiles/proiect1daniela.dir/src/main.cpp.o
 proiect1daniela: CMakeFiles/proiect1daniela.dir/src/Home.cpp.o
 proiect1daniela: CMakeFiles/proiect1daniela.dir/src/House.cpp.o
 proiect1daniela: CMakeFiles/proiect1daniela.dir/src/Apartment.cpp.o
+proiect1daniela: CMakeFiles/proiect1daniela.dir/src/Renter.cpp.o
+proiect1daniela: CMakeFiles/proiect1daniela.dir/src/Room.cpp.o
+proiect1daniela: CMakeFiles/proiect1daniela.dir/src/LockRoom.cpp.o
 proiect1daniela: CMakeFiles/proiect1daniela.dir/build.make
 proiect1daniela: CMakeFiles/proiect1daniela.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/e/facultate/anul iv ac/iep/proiect1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable proiect1daniela"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable proiect1daniela"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/proiect1daniela.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +183,6 @@ CMakeFiles/proiect1daniela.dir/clean:
 .PHONY : CMakeFiles/proiect1daniela.dir/clean
 
 CMakeFiles/proiect1daniela.dir/depend:
-	cd "/mnt/e/facultate/anul iv ac/iep/proiect1/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/e/facultate/anul iv ac/iep/proiect1" "/mnt/e/facultate/anul iv ac/iep/proiect1" "/mnt/e/facultate/anul iv ac/iep/proiect1/build" "/mnt/e/facultate/anul iv ac/iep/proiect1/build" "/mnt/e/facultate/anul iv ac/iep/proiect1/build/CMakeFiles/proiect1daniela.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1" "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1" "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build" "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build" "/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/build/CMakeFiles/proiect1daniela.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/proiect1daniela.dir/depend
 

@@ -46,7 +46,13 @@ add_executable(${PROJECT_NAME}
                includes/Home.hpp 
                includes/House.hpp
                includes/Apartment.hpp
+               includes/Renter.hpp
+               includes/Room.hpp
+               includes/LockRoom.hpp
                src/main.cpp
                src/Home.cpp
                src/House.cpp
-               src/Apartment.cpp)
+               src/Apartment.cpp
+               src/Renter.cpp
+               src/Room.cpp
+               src/LockRoom.cpp)

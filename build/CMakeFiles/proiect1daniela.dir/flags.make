@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/mnt/e/facultate/anul iv ac/iep/proiect1/includes" 
+CXX_INCLUDES = -I"/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes" 
 

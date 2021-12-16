@@ -6,27 +6,65 @@
 
 #IncludeRegexTransform: 
 
-/mnt/e/facultate/anul iv ac/iep/proiect1/includes/Apartment.hpp
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/Apartment.hpp
 iostream
 -
+memory
+-
 Home.hpp
-/mnt/e/facultate/anul iv ac/iep/proiect1/includes/Home.hpp
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/Home.hpp
 
-/mnt/e/facultate/anul iv ac/iep/proiect1/includes/Home.hpp
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/Home.hpp
 iostream
 -
 vector
 -
 
-/mnt/e/facultate/anul iv ac/iep/proiect1/includes/House.hpp
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/House.hpp
 iostream
 -
 Home.hpp
-/mnt/e/facultate/anul iv ac/iep/proiect1/includes/Home.hpp
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/Home.hpp
+memory
+-
 
-/mnt/e/facultate/anul iv ac/iep/proiect1/src/main.cpp
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/LockRoom.hpp
+iostream
+-
+Room.hpp
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/Room.hpp
+
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/Renter.hpp
+iostream
+-
+memory
+-
+Apartment.hpp
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/Apartment.hpp
+
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/Room.hpp
+iostream
+-
+
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/LockRoom.cpp
+../includes/LockRoom.hpp
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/LockRoom.hpp
+mutex
+-
+
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/Room.cpp
+../includes/Room.hpp
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/Room.hpp
+
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/main.cpp
 ../includes/House.hpp
-/mnt/e/facultate/anul iv ac/iep/proiect1/includes/House.hpp
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/House.hpp
 ../includes/Apartment.hpp
-/mnt/e/facultate/anul iv ac/iep/proiect1/includes/Apartment.hpp
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/Apartment.hpp
+../includes/Renter.hpp
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/Renter.hpp
+../includes/LockRoom.hpp
+/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/LockRoom.hpp
+thread
+-
 
