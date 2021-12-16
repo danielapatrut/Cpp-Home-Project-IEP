@@ -88,6 +88,7 @@ int main()
         std::cout<<"\nProprietarul nu are nicio casa"<<std::endl;
 
 
+    std::cout<<"\n";
     Room *occupiedRoom = new Room(115);
     waitForRoom(occupiedRoom); 
     std::cout<<"Room is free: "<<occupiedRoom->askToBook()<<std::endl;

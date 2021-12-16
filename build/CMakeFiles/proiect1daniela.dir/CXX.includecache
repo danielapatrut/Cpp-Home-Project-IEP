@@ -52,10 +52,6 @@ iostream
 mutex
 -
 
-/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/Room.cpp
-../includes/Room.hpp
-/mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/Room.hpp
-
 /mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/src/main.cpp
 ../includes/House.hpp
 /mnt/e/FACULTATE/Anul IV AC/IEP/proiect1/includes/House.hpp
